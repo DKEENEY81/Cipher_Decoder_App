@@ -44,7 +44,7 @@ class Decoder:
                 col_items = list(reversed(cipherlist[start:stop]))
             translation_matrix[abs(k) - 1] = col_items
             start += self.ROWS  # increment start of slice
-            stop += self.ROWS  # increment stop of slice
+            stop += self.ROWS  # increment end of slice
         return translation_matrix
 
     def decrypt(self, translation_matrix):
