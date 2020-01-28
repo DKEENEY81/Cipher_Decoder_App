@@ -96,9 +96,9 @@ header.grid(row=0, column=0)
 # rphoto = tk.PhotoImage(file = r"/Users/keeney/Desktop/Cipher/run.png")
 # rphoto = rphoto.subsample(9)
 
-button_run = tk.Button(bottom_frame, text='Run', width=10, command=run_app, relief='raised', highlightthickness=0, highlightbackground='blue')
+button_run = tk.Button(bottom_frame, text='Run', width=10, command=run_app, relief='sunken', highlightthickness=0, highlightbackground='dark grey')
 
-button_close = tk.Button(bottom_frame, text="Exit", command=close_app, width=10, relief='raised', highlightthickness=0)
+button_close = tk.Button(bottom_frame, text="Exit", command=close_app, width=10, relief='raised', highlightthickness=0, highlightbackground='dark grey')
 
 button_run.grid(column=0, row=0, sticky='e', padx=100, pady=10)
 button_close.grid(column=1, row=0, sticky='e', padx=100, pady=10)
